@@ -1,0 +1,190 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+.container {
+    flex-direction: column;
+    min-height: 100vh;
+    display: flex;
+}
+
+.banner{
+    flex: 1;
+    background-color: rgb(224, 237, 238);
+}
+.main {
+    background-color: rgb(195, 207, 180);
+    color: orangered;
+    flex: 8;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 3em;
+}
+.button {
+background-color: chocolate;
+width: 12em;
+height: 4em;
+margin: 30px;
+border-radius: 10px;
+color: cornsilk;
+}
+.footer{
+    background-color: rgb(224, 237, 238);
+    flex: 1.5;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
+    background: rgb(236, 230, 230);   
+}
+
+.boxes1 {
+    background-color: rgb(19, 196, 209);
+    margin: 50px 50px;
+    width: 300px;
+    height: 100px;
+}
+
+.box1 {
+    background-color: rgb(226, 13, 13);
+    padding: 20px 20px;
+    margin: 20px 20px;
+    width: 150px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.box2 {
+    background-color: rgb(58, 55, 230);
+    padding: 20px 20px;
+    margin: 20px 20px;
+    width: 150px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.box3 {
+    background-color: rgb(189, 189, 211);
+    padding: 20px 20px;
+    margin: 20px 20px;
+    width: 150px;;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.box4 {
+    background-color: rgb(199, 16, 25);
+    padding: 20px 20px;
+    margin: 20px 20px;
+    width: 150px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.box5 {
+    background-color: rgb(199, 16, 25);
+    padding: 20px 20px;
+    margin: 20px 20px;
+    width: 150px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.box6 {
+    background-color: rgb(199, 16, 25);
+    padding: 20px 20px;
+    margin: 20px 20px;
+    width: 150px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.box7 {
+    background-color: rgb(199, 16, 25);
+    padding: 20px 20px;
+    margin: 20px 20px;
+    width: 150px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.box8 {
+    background-color: rgb(199, 16, 25);
+    padding: 20px 20px;
+    margin: 20px 20px;
+    width: 150px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.button1 {
+    background-color: rgb(189, 189, 211);
+    float: right;
+    width: 12em;
+    height: 4em;
+    border-radius: 10px;
+    color: cornsilk;
+}
+
+.button10 {
+    flex: 1;
+    flex-direction: row;
+    align-self: flex-end;
+    flex-shrink: 3em;
+    background-color: rgb(189, 189, 211);
+    width: 12em;
+    height: 4em;
+    border-radius: 10px;
+    color: cornsilk;
+}
+
+.button2 {
+    background-color: rgb(189, 189, 211);
+    width: 12em;
+    height: 4em;
+    border-radius: 10px;
+    color: cornsilk;
+}
+
+.button3 {
+    background-color: rgb(189, 189, 211);
+    float: right;
+    width: 12em;
+    height: 4em;
+    border-radius: 10px;
+    color: cornsilk;
+}
+.button30 {
+    background-color: rgb(189, 189, 211);
+    width: 12em;
+    height: 4em;
+    border-radius: 10px;
+    color: cornsilk;
+}
+.button4 {
+    background-color: rgb(189, 189, 211);
+    width: 12em;
+    height: 4em;
+    border-radius: 10px;
+    color: cornsilk;
+}
+
+.product-main {
+    float: right;
+    margin: 10px;
+}
+.img {
+    float: left;
+    image-orientation: 10deg;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    background-color: orangered;
+    align-items: center;
+}
